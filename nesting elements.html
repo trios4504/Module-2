@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nesting HTML elements</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+        <td><b>Here</b> is some <i>data</i></td>
+        <td>
+            <ol>
+                <li>Here is a list inside of a table cell</li>
+                <li>Here is a second item</li>
+                <li>Here is a third item</li>
+            </ol>
+        </td>
+        </tr>
+        <tr>
+        <td>
+            <ul>
+                <li>Here is an unordered list inside of a table cell</li>
+                <li>Here is another item in an unordered list</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>Here is yet another list  inside of a table cell</li>
+                <li>Here is a second item in this list</li>
+                <li>Here is a third item in this list</li>
+                <li>
+                    <table border="1">
+                        <tr>
+                            <td>ABC</td>
+                            <td>DEF</td>
+                            <td>GHI</td>
+                            <tr>
+                                <td>JKL</td>
+                                <td>MNO</td>
+                                <td>PQR</td>
+                            </tr>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
+        </td>
+        </tr>
+    </table>
+</body>
+</html>
